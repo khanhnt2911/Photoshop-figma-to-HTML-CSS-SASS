@@ -68,8 +68,10 @@
     border: 1px solid $primary-color;
     background-color: transparent;
     right: 80px;
+    outline: none;
   }
   .slick-next {
+    border: none;
     background-color: $primary-color;
     right: 0;
   }
@@ -84,10 +86,12 @@
       background-color: $gray-color;
       width: 15px;
       height: 15px;
+      border: none;
       border-radius: 100rem;
       transition: all 0.2s linear;
     }
     .slick-active button {
+      border: none;
       background-color: $primary-color;
       width: 45px;
     }

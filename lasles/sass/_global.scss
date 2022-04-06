@@ -64,3 +64,8 @@ body {
   margin-right: auto;
   text-align: center;
 }
+@media screen and (max-width: 767px) {
+  .button {
+    padding: 13px 26px;
+  }
+}
